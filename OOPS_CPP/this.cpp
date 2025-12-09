@@ -44,12 +44,6 @@ int main() {
 
 /*
 
-Call: a.add(b) → other binds to b (const reference, no copy)
 
-Modify: a.x += b.x; a.y += b.y (mutates a in-place)
-
-Return: *this (address of a)
-
-Chain: .add(c) called on same a reference
 
 */
